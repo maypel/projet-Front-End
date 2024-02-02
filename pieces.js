@@ -81,6 +81,7 @@ boutonFiltrerDescription.addEventListener("click", ()=>{
 console.log(piecesFiltrees)
 });
 
+// ajout de nouvelles cases
 let noms = pieces.map(piece => piece.nom);
 for (let i = pieces.length -1; i>= 0; i--){
     if (pieces[i].prix > 35){
